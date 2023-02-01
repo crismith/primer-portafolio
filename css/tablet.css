@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+
+    .logo-header {
+        width: 250px;
+    }
+
+    .btn-menu {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+    }
+
+    .link-text {
+        font-size: 1.2em;
+    }
+
+    .main-portada {
+        background-position: top;
+    }
+
+    .container-portada {
+        top: 30rem;
+    }
+
+    .text-portada {
+        font-size: 4.2em;
+    }
+
+    .img-my-phote {
+        width: 100%;
+        height: 530px;
+        object-fit: cover;
+    }
+}

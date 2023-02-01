@@ -1,0 +1,265 @@
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --main-negro: #41444B;
+    --main-negro-claro: #52575D;
+    --main-amarillo: #FDDB3A;
+    --main-amarillo-claro: #F6F4E6;
+    --main-blanco: rgba(255, 255, 255, .6);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Header  */
+.header_menu {
+    width: 100%;
+    background: var(--main-blanco);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 7px 0px var(--main-negro-claro);
+}
+.style-header{
+    background: #FFF !important;
+}
+
+.navbar_menu {
+    background-color: unset !important;
+}
+
+.logo-header {
+    width: 125px;
+}
+
+.btn-contact {
+    background: var(--main-amarillo);
+    color: #FFF;
+    border: none;
+}
+
+.btn-menu {
+    color: var(--main-amarillo) !important;
+    font-size: 1rem;
+    border-color: var(--main-amarillo) !important;
+    ;
+    padding: .20rem .55rem !important;
+}
+
+.span-btn {
+    font-weight: bolder;
+    color: var(--main-negro);
+    animation-duration: 1s;
+    animation-name: animateCalendar;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes animateCalendar {
+0% {
+    transform: scale(1.3);
+}
+
+50% {
+    transform: scale(1.0);
+}
+
+100% {
+    transform: scale(1.3);
+}
+}
+
+
+.link-text {
+    color: var(--main-negro) !important;
+    font-size: 1.5em;
+}
+
+/* Fin Header  */
+
+/* Portada  */
+.main-portada {
+    position: relative;
+    background: url('./../img/portada.webp');
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-portada {
+    position: absolute;
+    top: 20rem;
+}
+
+.text-portada {
+    color: var(--main-amarillo);
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Fin Portada  */
+
+/* Sobre Mi  */
+.main-about {
+    margin: 1.5em 0 0 0;
+}
+
+.text-about {
+    margin-bottom: .7em;
+    padding: 0;
+}
+
+.strong-text {
+    color: var(--main-amarillo);
+}
+
+.text-name {
+    margin: 1em 0 .5em 0;
+    color: var(--main-amarillo);
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.red-social {
+    width: 1.5em;
+    color: var(--main-amarillo);
+}
+
+.container-red-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-social {
+    color: var(--main-amarillo);
+    font-size: 1.8em;
+}
+
+/* Fin Sobre Mi  */
+
+/* portafolio */
+.main-portafolio {
+    margin: 1.5em 0 0 0;
+}
+
+
+.logo-marca {
+    width: 100%;
+    /* height: 160px; */
+    mix-blend-mode: luminosity;
+    opacity: .5;
+}
+
+.logo-marca:hover {
+    mix-blend-mode: darken;
+    opacity: 1;
+}
+.btn-link{
+    color: var(--main-negro-claro);
+    font-size: 1.2em;
+}
+
+/* Fin portafolio */
+
+/* Tecnología */
+.main-tecnologia {
+    margin: 1.5em 0 0 0;
+}
+
+.card-tecnologi {
+    background-color: var(--main-negro);
+}
+
+.card-header {
+    background-color: var(--main-negro-claro);
+    color: var(--main-amarillo-claro);
+}
+
+.badge-tecnologi {
+    padding: .7em;
+    background: var(--main-negro-claro);
+    color: var(--main-amarillo);
+    font-size: 1.3em;
+}
+
+/* Fin Tecnología */
+
+/* Services */
+
+.main-services {
+    margin: 1.5em 0 0 0;
+}
+
+.services {
+    display: flex;
+    flex-flow: column;
+}
+
+.service {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 2.5em 0;
+
+}
+
+.title-service {
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: .6em;
+}
+
+.diseno {
+    background: var(--main-negro-claro);
+    color: var(--main-amarillo);
+}
+
+.desarrollo {
+    background: var(--main-amarillo);
+    color: #FFF;
+}
+
+.apps {
+    background: var(--main-negro-claro);
+    color: var(--main-amarillo);
+}
+
+.btn-outline-warning:hover {
+    background: #ffffff;
+    color: var(--main-amarillo);
+    border-color: #ffffff;
+    font-size: 1.1em;
+}
+/* Fin Services */
+
+/* educacion */
+.main-educacion {
+    margin: 1.5em 0 0 0;
+}
+
+.card-educacion {
+    background: var(--main-negro-claro);
+}
+
+/* Fin educacion */
+.redes-social-footer {
+    color: var(--main-amarillo);
+    font-size: 1.8em;
+}
+.heart-icon{
+    color: var(--main-amarillo);
+}

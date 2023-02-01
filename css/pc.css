@@ -1,0 +1,46 @@
+@media (min-width: 1024px) {
+    .logo-header {
+        width: 230px;
+    }
+
+    .container-menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .lista-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-portada {
+        background-position: center;
+    }
+
+    .container-portada {
+        top: 20rem;
+    }
+
+    .text-portada {
+        font-size: 4.5em;
+    }
+
+    .img-my-phote {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }
+
+    .body-tecnologi {
+        padding: 3.2em;
+    }
+
+    .services {
+        flex-flow: row;
+    }
+
+    .service {
+        padding: 3em 0;
+    }
+}
